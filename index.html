@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--favicon-->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/worker.png"
+      type="imnage/x-icon"
+    />
+    <!--remix icon-->
+    <!--remix icon's credits https://remixicon.com/-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!--css-->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Sadat Khalis Arnab Portfolio Website</title>
+  </head>
+  <body>
+    <!--header profile-->
+    <header class="profile container">
+
+      <!--theme button-->
+      <i class="ri-moon-line changeTheme" id="themeButton"></i>
+
+      <div class="profileContainer grid">
+        <div class="profileData">
+          <div class="profileBorder">
+            <div class="profilePerfil">
+              <img src="./assets/img/perfil.png" alt="" />
+            </div>
+          </div>
+
+          <h2 class="profileName">Sadat Khalis Arnab</h2>
+          <h3 class="profileProfession">Mechanical Engineer</h3>
+          <h3 class="profileProfession">Department of Mechanical and Production Engineering </h3>
+          <h4 class="profileProfession">Ahsanullah University of Science and Technology (AUST), Tejgaon, Dhaka-1215, Bangladesh </h4>
+
+          <ul class="profileSocial">
+            <a href="https://www.instagram.com/sadat_khalis_arnab/" target="_blank" class="profileSocialLink">
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/sadat-arnab-a23369199/" target="_blank" class="profileSocialLink">
+              <i class="ri-linkedin-box-line"></i>
+            </a>
+            <a href="https://github.com/sk-arnab" target="_blank" class="profileSocialLink">
+              <i class="ri-github-line"></i>
+            </a>
+          </ul>
+        </div>
+
+        <div class="profileInfo grid">
+          <div class="profileInfoGroup">
+            <h3 class="profileInfoNumber">4</h3>
+            <p class="profileInfoDescription">
+              Years of <br />
+              Work
+            </p>
+          </div>
+
+          <div class="profileInfoGroup">
+            <h3 class="profileInfoNumber">+20</h3>
+            <p class="profileInfoDescription">
+              Completed <br />
+              projects
+            </p>
+          </div>
+
+          <div class="profileInfoGroup">
+            <h3 class="profileInfoNumber">+20</h3>
+            <p class="profileInfoDescription">
+              Event and Seminars <br />
+              Participated
+            </p>
+          </div>
+        </div>
+
+        <div class="profileButtons">
+          <a download="" href="./assets/doc/cv.pdf" class="button"
+            >Download CV <i class="ri-arrow-down-line"></i
+          ></a>
+
+          <div class="profileButtonsSmall">
+            <a href="https://wa.me/qr/LITZD5NFY4H3H1" target="_blank" class="button buttonSmall buttonGray">
+              <i class="ri-whatsapp-line"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100084874801381" target="_blank" class="button buttonSmall buttonGray">
+              <i class="ri-messenger-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--main-->
+    <main class="main">
+      <section class="filters container">
+        <!--filters tabs-->
+        <ul class="filtersContent">
+          <button class="filtersButton filterTabActive" data-target="#projects">
+            Projects
+          </button>
+          <button class="filtersButton" data-target="#skills">About</button>
+          <button class="filtersButton" data-target="#solidworks">Certificates</button>
+          <button class="filtersButton" data-target="#circuit">Events</button>
+          
+        </ul>
+
+        <div class="filtersSections">
+          <!--projects-->
+          <div class="projectsContent grid filtersActive" data-content id="projects">
+            <article class="projectsCard">
+              <img src="./assets/img/ProtoE1.jpg" width="1196" height="670" alt="" class="projectsImg" />
+
+              <div class="projectsModal">
+                <div>
+                  <span class="projectsSubtitle">3D Concept</span>
+                  <h3 class="projectsTitle">Proto E1</h3>
+                  <a href="https://www.behance.net/gallery/148079607/Proto-E1-A-supercar-prototype" class="projectsButton button buttonSmall">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projectsCard">
+              <img src="./assets/img/ARES X1 Cover.jpg" width="3840" height="2160" alt="" class="projectsImg" />
+
+              <div class="projectsModal">
+                <div>
+                  <span class="projectsSubtitle">3D Concept</span>
+                  <h3 class="projectsTitle">ARES X1</h3>
+                  <a href="https://www.behance.net/gallery/148078305/ARES-X1-A-smartphone-prototype" class="projectsButton button buttonSmall">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projectsCard">
+              <img src="./assets/img/CleanIT.jpg" width="1920" height="1080" alt="" class="projectsImg" />
+
+              <div class="projectsModal">
+                <div>
+                  <span class="projectsSubtitle">Engineering Project</span>
+                  <h3 class="projectsTitle">CleanIT</h3>
+                  <a href="https://grabcad.com/library/cleanit-1" class="projectsButton button buttonSmall">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projectsCard">
+              <img src="./assets/img/Aeromax GT.jpg" alt="" class="projectsImg" />
+
+              <div class="projectsModal">
+                <div>
+                  <span class="projectsSubtitle">Automobile Spoiler Concept</span>
+                  <h3 class="projectsTitle">Aeromax GT</h3>
+                  <a href="https://grabcad.com/library/aeromax-gt-spoiler-concept-1" class="projectsButton button buttonSmall">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projectsCard">
+              <img src="./assets/img/SKRIM 3.jpg" width="4000" height="2250" alt="" class="projectsImg" />
+  
+              <div class="projectsModal">
+                <div>
+                  <span class="projectsSubtitle">Automobile RIM Concept</span>
+                  <h3 class="projectsTitle">SKRIM GT Edition</h3>
+                  <a href="https://grabcad.com/library/skrim-gt-edition-1" class="projectsButton button buttonSmall">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+        </div>
+
+          <!--skills-->
+          <div class="skillsContent grid" data-content id="skills">
+            <div class="skillsArea">
+              <h3 class="skillsTitle">
+                  About Me
+              </h3>
+
+              <div class="skillsBox">
+                <div class="skillsGroup">
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                     
+                        <span class="skillsLevel">
+                            Passionate mechanical engineer captivated by the world of automobile engineering since a young age. Equipped with a strong academic foundation, I thrive on dissecting suspension systems, enhancing fuel efficiency, and advancing electric and autonomous vehicles. My dedication to innovation, technical expertise, and creative thinking drives me to contribute to the forefront of automotive engineering, shaping the future of cutting-edge vehicles.
+</div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="skillsArea">
+              <h3 class="skillsTitle">
+               SkillsArea
+              </h3>
+
+              <div class="skillsBox">
+                <div class="skillsGroup">
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skillsName"><a href="https://grabcad.com/sadat.khalis.arnab-2" style="color: inherit;">CAD Designer</a></h3>
+                      <span class="skillsLevel">Advanced</span>
+                    </div>
+                  </div>
+                  
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skillsName"><a href="https://drive.google.com/file/d/1qCUkEksMfGYQBclbyxwMZt0rDrfQCQzb/view?usp=sharing" style="color: inherit;">SolidWorks (CSWA) </a></h3>
+                      <span class="skillsLevel">Advanced</span>
+                    </div>
+                  </div>
+                  
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skillsName"><a href="https://grabcad.com/sadat.khalis.arnab-2" style="color: inherit;">SolidCAM</a></h3>
+                      <span class="skillsLevel">Advanced</span>
+                    </div>
+                  </div>
+
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skillsName"><a href="https://drive.google.com/file/d/1iAG_wt2PXkEHIGYuRbhE6u2Alvhh_h6z/view?usp=sharing" style="color: inherit;">Ansys</a></h3>
+                      <span class="skillsLevel">Intermediate</span>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="skillsGroup">
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skillsName"><a href="https://drive.google.com/file/d/1yHcsElBQc_e-iaSqnyWYukbSDAxw4WZ-/view?usp=sharing" style="color: inherit;">MATLAB</a></h3>
+                      <span class="skillsLevel">Basic</span>
+                    </div>
+                  </div>
+                  
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skillsName"><a href="https://drive.google.com/drive/folders/1zLO4JsRH6nhV4jiLdLZatppN0mvzBo1m?usp=sharing" style="color: inherit;">XFLR5</a></h3>
+                      <span class="skillsLevel">Intermediate</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+            <!--solidworks-->
+          <div class="projectsContent grid filtersActive" data-content id="solidworks">
+            <article class="projectsCard">
+              <img src="./assets/img/CSWA Certificate.jpg" width="1121" height="790" alt="" class="projectsImg" />
+
+              <div class="projectsModal">
+                <div>
+                  <span class="projectsSubtitle">SolidWorks</span>
+                  <h3 class="projectsTitle">CSWA - Certified Solidworks Associate</h3>
+                  <a href="https://drive.google.com/file/d/1qCUkEksMfGYQBclbyxwMZt0rDrfQCQzb/view?usp=drive_link" class="projectsButton button buttonSmall">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projectsCard">
+              <img src="./assets/img/Certificate Mitsubishi.jpg" width="2456" height="1382" alt="" class="projectsImg" />
+
+              <div class="projectsModal">
+                <div>
+                  <span class="projectsSubtitle">Industrial Trainee</span>
+                  <h3 class="projectsTitle">Mitsubishi Motors, Bangladesh - Rangs Workshop</h3>
+                  <a href="https://drive.google.com/file/d/1EqHKRCP3F4IMahBnw2xILQfdwCKp4PKA/view?usp=sharing" class="projectsButton button buttonSmall">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projectsCard">
+              <img src="./assets/img/MATLAB Certificate.jpg" width="1117" height="786" alt="" class="projectsImg" />
+
+              <div class="projectsModal">
+                <div>
+                  <span class="projectsSubtitle">MATHWORKS Training Services</span>
+                  <h3 class="projectsTitle">MATLAB Onramp</h3>
+                  <a href="https://drive.google.com/file/d/1yHcsElBQc_e-iaSqnyWYukbSDAxw4WZ-/view?usp=drive_link" class="projectsButton button buttonSmall">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projectsCard">
+              <img src="./assets/img/Certificate BITAC.jpg" width="2456" height="3332" alt="" class="projectsImg" />
+
+              <div class="projectsModal">
+                <div>
+                  <span class="projectsSubtitle">Industrial Attachment</span>
+                  <h3 class="projectsTitle">BITAC</h3>
+                  <a href="https://drive.google.com/file/d/1reHvLEUMHxPAMGGQMx_YtnAf9rx14F6J/view?usp=sharing" class="projectsButton button buttonSmall">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projectsCard">
+              <img src="./assets/img/Certificate ARC 22.jpg" width="3209" height="2339" alt="" class="projectsImg" />
+  
+              <div class="projectsModal">
+                <div>
+                  <span class="projectsSubtitle">Event Organizer Certificate</span>
+                  <h3 class="projectsTitle">AUST ROVER CHALLANGE 2022</h3>
+                  <a href="https://drive.google.com/file/d/1dBm0C9GGqg4qCGf2hk598sBWewnftoTF/view?usp=sharing" class="projectsButton button buttonSmall">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+        </div>
+
+        <!--solidworks-->
+        <div class="projectsContent grid filtersActive" data-content id="circuit">
+          <article class="projectsCard">
+            <img src="./assets/img/1.jpg" alt="" class="projectsImg" />
+
+            <div class="projectsModal">
+              <div>
+                <span class="projectsSubtitle">Seminar</span>
+                <h3 class="projectsTitle">𝐄𝐋𝐄𝐂𝐓𝐑𝐈𝐅𝐘𝐈𝐍𝐆 𝐓𝐇𝐄 𝐅𝐔𝐓𝐔𝐑𝐄: by 𝐀𝐮𝐝𝐢 𝐁𝐚𝐧𝐠𝐥𝐚𝐝𝐞𝐬𝐡 𝐚𝐧𝐝 𝐒𝐞𝐧𝐭𝐢𝐧𝐞𝐥 𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐢𝐞𝐬 𝐋𝐭𝐝.</h3>
+                <a href="https://www.facebook.com/events/1287635278853811/?acontext=%7B"ref"%3A"52"%2C"action_history"%3A"[%7B%5C"surface%5C"%3A%5C"share_link%5C"%2C%5C"mechanism%5C"%3A%5C"share_link%5C"%2C%5C"extra_data%5C"%3A%7B%5C"invite_link_id%5C"%3A1448725849299094%7D%7D]"%7D" class="projectsButton button buttonSmall">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projectsCard">
+            <img src="./assets/img/2.jpg" width="960" height="365" alt="" class="projectsImg" />
+
+            <div class="projectsModal">
+              <div>
+                <span class="projectsSubtitle">National Event</span>
+                <h3 class="projectsTitle">Hero Presents Ignition 2019</h3>
+                <a href="https://www.facebook.com/events/891266034591576?ref=newsfeed" class="projectsButton button buttonSmall">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projectsCard">
+            <img src="./assets/img/3.jpg" width="960" height="503" alt="" class="projectsImg" />
+
+            <div class="projectsModal">
+              <div>
+                <span class="projectsSubtitle">National Event</span>
+                <h3 class="projectsTitle">ISPAHANI PRESENTS MECHCELLENCE1.0</h3>
+                <a href="https://www.facebook.com/events/1357461741725360/" class="projectsButton button buttonSmall">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projectsCard">
+            <img src="./assets/img/4.jpg" width="1200" height="628" alt="" class="projectsImg" />
+
+            <div class="projectsModal">
+              <div>
+                <span class="projectsSubtitle">Hands On Workshop</span>
+                <h3 class="projectsTitle">A Brief Introduction to CFD & FEA using Ansys</h3>
+                <a href="https://www.facebook.com/events/1627423920987047/" class="projectsButton button buttonSmall">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projectsCard">
+            <img src="./assets/img/5.jpg" width="1440" height="900" alt="" class="projectsImg" />
+
+            <div class="projectsModal">
+              <div>
+                <span class="projectsSubtitle">National Event</span>
+                <h3 class="projectsTitle">Aust Rover Challange 22</h3>
+                <a href="https://www.facebook.com/events/1072789436680896/" class="projectsButton button buttonSmall">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+      </div>
+
+
+
+
+
+         
+        
+
+
+        </div>
+      </section>
+    </main>
+
+
+    
+    
+    <!--footer-->
+    <footer class="footerContainer">
+      <span class="footerCopy">
+        &#169; All rigths reserved
+      </span>
+    </footer>
+    <!--scrollreveal-->
+    <script src="./assets/script/raw.githubusercontent.com_jlmakes_scrollreveal_master_dist_scrollreveal.min.js"></script>
+    <!--js-->
+    <script src="script.js"></script>
+  </body>
+</html>

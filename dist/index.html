@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--favicon-->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="imnage/x-icon"
+    />
+    <!--remix icon-->
+    <!--remix icon's credits https://remixicon.com/-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!--css-->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Saber portfolio website - Bedimcode</title>
+  </head>
+  <body>
+    <!--header profile-->
+    <header class="profile container">
+
+      <!--theme button-->
+      <i class="ri-moon-line changeTheme" id="themeButton"></i>
+
+      <div class="profileContainer grid">
+        <div class="profileData">
+          <div class="profileBorder">
+            <div class="profilePerfil">
+              <img src="./assets/img/perfil.png" alt="" />
+            </div>
+          </div>
+
+          <h2 class="profileName">shawon</h2>
+          <h3 class="profileProfession">Junior Mechanical Engineer</h3>
+          <h3 class="profileProfession">Ahsanullah University Science and Technology </h3>
+
+          <ul class="profileSocial">
+            <a href="https://www.instagram.com/" target="_blank" class="profileSocialLink">
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank" class="profileSocialLink">
+              <i class="ri-linkedin-box-line"></i>
+            </a>
+            <a href="https://github.com/" target="_blank" class="profileSocialLink">
+              <i class="ri-github-line"></i>
+            </a>
+          </ul>
+        </div>
+
+        <div class="profileInfo grid">
+          <div class="profileInfoGroup">
+            <h3 class="profileInfoNumber">5</h3>
+            <p class="profileInfoDescription">
+              Years of <br />
+              Work
+            </p>
+          </div>
+
+          <div class="profileInfoGroup">
+            <h3 class="profileInfoNumber">+21</h3>
+            <p class="profileInfoDescription">
+              Completed <br />
+              projects
+            </p>
+          </div>
+
+          <div class="profileInfoGroup">
+            <h3 class="profileInfoNumber">12</h3>
+            <p class="profileInfoDescription">
+              Satisfied <br />
+              customers
+            </p>
+          </div>
+        </div>
+
+        <div class="profileButtons">
+          <a download="" href="./assets/doc/cv.pdf" class="button"
+            >Download CV <i class="ri-arrow-down-line"></i
+          ></a>
+
+          <div class="profileButtonsSmall">
+            <a href="https://web.whatsapp.com/" target="_blank" class="button buttonSmall buttonGray">
+              <i class="ri-whatsapp-line"></i>
+            </a>
+            <a href="https://www.messenger.com/" target="_blank" class="button buttonSmall buttonGray">
+              <i class="ri-messenger-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--main-->
+    <main class="main">
+      <section class="filters container">
+        <!--filters tabs-->
+        <ul class="filtersContent">
+          <button class="filtersButton filterTabActive" data-target="#projects">
+            Projects
+          </button>
+          <button class="filtersButton" data-target="#skills">Skills</button>
+          <button class="filtersButton" data-target="#solidworks">Design</button>
+          <button class="filtersButton" data-target="#circuit">Events</button>
+          
+        </ul>
+
+        <div class="filtersSections">
+          <!--projects-->
+          <div class="projectsContent grid filtersActive" data-content id="projects">
+            <article class="projectsCard">
+              <img src="./assets/img/project1.jpg" alt="" class="projectsImg" />
+
+              <div class="projectsModal">
+                <div>
+                  <span class="projectsSubtitle">Web</span>
+                  <h3 class="projectsTitle">Payment Site</h3>
+                  <a href="#" class="projectsButton button buttonSmall">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projectsCard">
+              <img src="./assets/img/project2.jpg" alt="" class="projectsImg" />
+
+              <div class="projectsModal">
+                <div>
+                  <span class="projectsSubtitle">Web</span>
+                  <h3 class="projectsTitle">Protifolio website</h3>
+                  <a href="#" class="projectsButton button buttonSmall">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projectsCard">
+              <img src="./assets/img/project3.jpg" alt="" class="projectsImg" />
+
+              <div class="projectsModal">
+                <div>
+                  <span class="projectsSubtitle">Mobile</span>
+                  <h3 class="projectsTitle">Fast food app</h3>
+                  <a href="#" class="projectsButton button buttonSmall">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projectsCard">
+              <img src="./assets/img/project4.jpg" alt="" class="projectsImg" />
+
+              <div class="projectsModal">
+                <div>
+                  <span class="projectsSubtitle">Mobile</span>
+                  <h3 class="projectsTitle">Travel app</h3>
+                  <a href="#" class="projectsButton button buttonSmall">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projectsCard">
+              <img src="./assets/img/project5.jpg" alt="" class="projectsImg" />
+  
+              <div class="projectsModal">
+                <div>
+                  <span class="projectsSubtitle">Design</span>
+                  <h3 class="projectsTitle">Music app design</h3>
+                  <a href="#" class="projectsButton button buttonSmall">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+        </div>
+
+          <!--skills-->
+          <div class="skillsContent grid" data-content id="skills">
+            <div class="skillsArea">
+              <h3 class="skillsTitle">
+                  About Me
+              </h3>
+
+              <div class="skillsBox">
+                <div class="skillsGroup">
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                     
+                      <span class="skillsLevel">
+                        As a Mechanical engineer with passion for designing and optimizing innovative solutions, combining technical expertise with a strong analytical mindset to drive efficiency and excellence in Mechanical systems.
+                        </span>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="skillsArea">
+              <h3 class="skillsTitle">
+               SkillsArea
+              </h3>
+
+              <div class="skillsBox">
+                <div class="skillsGroup">
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skillsName"><a href="https://www.facebook.com/" style="color: inherit;">Circuit Design</a></h3>
+                      <span class="skillsLevel">Intermediate</span>
+                    </div>
+                  </div>
+                  
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skillsName"><a href="https://www.facebook.com/" style="color: inherit;">Arduino</a></h3>
+                      <span class="skillsLevel">Intermediate</span>
+                    </div>
+                  </div>
+                  
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skillsName"><a href="https://www.facebook.com/" style="color: inherit;">python</a></h3>
+                      <span class="skillsLevel">Advance</span>
+                    </div>
+                  </div>
+
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skillsName"><a href="https://www.facebook.com/" style="color: inherit;">OpenCv</a></h3>
+                      <span class="skillsLevel">Intermediate</span>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="skillsGroup">
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skillsName"><a href="https://www.facebook.com/" style="color: inherit;">solidWorks</a></h3>
+                      <span class="skillsLevel">Basic</span>
+                    </div>
+                  </div>
+                  
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skillsName"><a href="https://www.facebook.com/" style="color: inherit;">C++</a></h3>
+                      <span class="skillsLevel">Intermediate</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+            <!--solidworks-->
+          <div class="projectsContent grid filtersActive" data-content id="solidworks">
+            <article class="projectsCard">
+              <img src="./assets/img/project1.jpg" alt="" class="projectsImg" />
+
+              <div class="projectsModal">
+                <div>
+                  <span class="projectsSubtitle">Cad</span>
+                  <h3 class="projectsTitle">Robotic arm</h3>
+                  <a href="#" class="projectsButton button buttonSmall">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projectsCard">
+              <img src="./assets/img/project2.jpg" alt="" class="projectsImg" />
+
+              <div class="projectsModal">
+                <div>
+                  <span class="projectsSubtitle">Web</span>
+                  <h3 class="projectsTitle">Protifolio website</h3>
+                  <a href="#" class="projectsButton button buttonSmall">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projectsCard">
+              <img src="./assets/img/project3.jpg" alt="" class="projectsImg" />
+
+              <div class="projectsModal">
+                <div>
+                  <span class="projectsSubtitle">Mobile</span>
+                  <h3 class="projectsTitle">Fast food app</h3>
+                  <a href="#" class="projectsButton button buttonSmall">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projectsCard">
+              <img src="./assets/img/project4.jpg" alt="" class="projectsImg" />
+
+              <div class="projectsModal">
+                <div>
+                  <span class="projectsSubtitle">Mobile</span>
+                  <h3 class="projectsTitle">Travel app</h3>
+                  <a href="#" class="projectsButton button buttonSmall">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projectsCard">
+              <img src="./assets/img/project5.jpg" alt="" class="projectsImg" />
+  
+              <div class="projectsModal">
+                <div>
+                  <span class="projectsSubtitle">Design</span>
+                  <h3 class="projectsTitle">Music app design</h3>
+                  <a href="#" class="projectsButton button buttonSmall">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+        </div>
+
+        <!--solidworks-->
+        <div class="projectsContent grid filtersActive" data-content id="circuit">
+          <article class="projectsCard">
+            <img src="./assets/img/project1.jpg" alt="" class="projectsImg" />
+
+            <div class="projectsModal">
+              <div>
+                <span class="projectsSubtitle">Circuit</span>
+                <h3 class="projectsTitle">stm32</h3>
+                <a href="#" class="projectsButton button buttonSmall">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projectsCard">
+            <img src="./assets/img/project2.jpg" alt="" class="projectsImg" />
+
+            <div class="projectsModal">
+              <div>
+                <span class="projectsSubtitle">Web</span>
+                <h3 class="projectsTitle">Protifolio website</h3>
+                <a href="#" class="projectsButton button buttonSmall">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projectsCard">
+            <img src="./assets/img/project3.jpg" alt="" class="projectsImg" />
+
+            <div class="projectsModal">
+              <div>
+                <span class="projectsSubtitle">Mobile</span>
+                <h3 class="projectsTitle">Fast food app</h3>
+                <a href="#" class="projectsButton button buttonSmall">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projectsCard">
+            <img src="./assets/img/project4.jpg" alt="" class="projectsImg" />
+
+            <div class="projectsModal">
+              <div>
+                <span class="projectsSubtitle">Mobile</span>
+                <h3 class="projectsTitle">Travel app</h3>
+                <a href="#" class="projectsButton button buttonSmall">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projectsCard">
+            <img src="./assets/img/project5.jpg" alt="" class="projectsImg" />
+
+            <div class="projectsModal">
+              <div>
+                <span class="projectsSubtitle">Design</span>
+                <h3 class="projectsTitle">Music app design</h3>
+                <a href="#" class="projectsButton button buttonSmall">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+      </div>
+
+
+
+
+
+         
+        
+
+
+        </div>
+      </section>
+    </main>
+
+
+    
+    
+    <!--footer-->
+    <footer class="footerContainer">
+      <span class="footerCopy">
+        &#169; Bedimcode. All rigths reserved
+      </span>
+    </footer>
+    <!--scrollreveal-->
+    <script src="./assets/script/raw.githubusercontent.com_jlmakes_scrollreveal_master_dist_scrollreveal.min.js"></script>
+    <!--js-->
+    <script src="script.js"></script>
+  </body>
+</html>
